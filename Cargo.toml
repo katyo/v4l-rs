@@ -8,6 +8,7 @@ readme = "README.md"
 categories = ["os", "os::linux-apis"]
 keywords = ["v4l", "v4l2", "video", "linux", "ioctl"]
 edition = "2021"
+repository = "https://github.com/katyo/linux-video-rs"
 
 [workspace]
 members = ["core", "tokio", "async-std", "cli"]

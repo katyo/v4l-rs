@@ -2,12 +2,14 @@
 name = "linux-video-core"
 description = "Linux V4L2 device interfacing"
 version = "0.1.1"
-authors = ["K. <kayo@illumium.org>"]
-license = "MIT"
-readme = "README.md"
 categories = ["os", "os::linux-apis"]
 keywords = ["v4l", "v4l2", "video", "linux", "ioctl"]
-edition = "2021"
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+readme.workspace = true
+repository.workspace = true
 
 [dependencies.bitmask-enum]
 version = "2"
