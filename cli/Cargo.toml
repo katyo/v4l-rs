@@ -2,13 +2,15 @@
 name = "linux-video-cli"
 description = "Linux video device interfacing (utils)"
 version = "0.1.0"
-authors = ["K. <kayo@illumium.org>"]
-license = "MIT"
-readme = "README.md"
 categories = ["command-line-utilities"]
 keywords = ["v4l", "v4l2", "video", "linux", "ioctl"]
-edition = "2021"
 publish = false
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+readme.workspace = true
+repository.workspace = true
 
 [[bin]]
 name = "video-cli"

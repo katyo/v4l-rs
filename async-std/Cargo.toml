@@ -2,12 +2,14 @@
 name = "async-std-linux-video"
 description = "Linux V4L2 device interfacing with async-std"
 version = "0.1.1"
-authors = ["K. <kayo@illumium.org>"]
-license = "MIT"
-readme = "README.md"
 categories = ["os", "os::linux-apis", "asynchronous"]
 keywords = ["v4l", "v4l2", "linux", "async", "async-std"]
-edition = "2021"
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+readme.workspace = true
+repository.workspace = true
 
 [dependencies.linux-video-core]
 path = "../core"
